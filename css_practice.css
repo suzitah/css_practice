@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rosybrown;
+}
+nav ul {
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin: 0 20px;
+}
+header {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5;
+}
+header h1 {
+    padding: 0px;
+}
+header h2{
+    background-color: chocolate;
+    margin: 50%;
+    padding: 0;
+}
+ol li {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 2px solid black;
+}
+@media screen and (max-width: 768px) {
+    .container {
+         width: 90%;
+    }
+}
+@media screen and (max-width: 480px) {
+        .header {
+             padding: 10%;
+             font-size: 14px;
+        }
+}
